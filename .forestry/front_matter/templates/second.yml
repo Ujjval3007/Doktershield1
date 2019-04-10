@@ -1,4 +1,12 @@
 ---
 label: Second
 hide_body: false
-fields: []
+display_field: menu
+fields:
+- type: select
+  name: menu
+  config:
+    source:
+      type: pages
+      section: pages
+  label: Menu
