@@ -1,7 +1,7 @@
 ---
 label: First
 hide_body: false
-display_field: coffee_image
+display_field: list_of_coffee
 fields:
 - type: textarea
   name: coffee
@@ -29,3 +29,18 @@ fields:
   config:
     maxSize: '500'
   default: "/uploads/A_small_cup_of_coffee.jfif"
+- type: list
+  name: list_of_coffee
+  label: List_of_coffee
+  config:
+    min: '1'
+    max: '5'
+    use_select: false
+    source:
+      type: documents
+  default:
+  - Long Black
+  - Flat White
+  - Espresso
+  - Cappuccino
+  - Latte
