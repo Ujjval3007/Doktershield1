@@ -43,3 +43,5 @@ fields:
   - Espresso
   - Cappuccino
   - Latte
+pages:
+- content/Coffee.html
