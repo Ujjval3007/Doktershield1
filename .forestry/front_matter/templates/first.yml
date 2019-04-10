@@ -1,7 +1,6 @@
 ---
 label: First
 hide_body: false
-display_field: list_of_coffee
 fields:
 - type: textarea
   name: coffee
