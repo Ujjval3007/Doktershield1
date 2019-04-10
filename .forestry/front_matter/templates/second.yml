@@ -1,0 +1,11 @@
+---
+label: Second
+hide_body: false
+fields:
+- type: select
+  name: menu
+  config:
+    source:
+      type: pages
+      section: pages
+  label: Menu
