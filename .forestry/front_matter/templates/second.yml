@@ -1,7 +1,6 @@
 ---
 label: Second
 hide_body: false
-display_field: menu
 fields:
 - type: select
   name: menu
