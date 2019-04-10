@@ -1,7 +1,7 @@
 ---
 label: First
 hide_body: false
-display_field: coffee
+display_field: coffee_image
 fields:
 - type: textarea
   name: coffee
@@ -22,3 +22,10 @@ fields:
     schema:
       format: html-blocks
   default: "<p></p>"
+- type: file
+  name: coffee_image
+  label: coffee_image
+  description: Cup of Coffee
+  config:
+    maxSize: '500'
+  default: "/uploads/A_small_cup_of_coffee.jfif"
