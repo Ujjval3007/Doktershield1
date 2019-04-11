@@ -9,7 +9,7 @@ sections:
   label: Projects
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
   templates:
   - try1
 upload_dir: static/uploads
