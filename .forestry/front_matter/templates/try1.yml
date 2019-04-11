@@ -1,4 +1,23 @@
 ---
 label: Try1
 hide_body: false
-fields: []
+display_field: hero_image
+fields:
+- type: file
+  label: Hero Image
+  name: hero_image
+  description: The main image goes here
+- type: text
+  name: segments
+  label: Segments
+  description: Main Segments
+- type: image_gallery
+  name: segments1
+  label: Segments
+  description: Enter the images related to images
+- type: textarea
+  name: product_details
+  label: Product Details
+  description: Enter the product details here
+  config:
+    required: true
